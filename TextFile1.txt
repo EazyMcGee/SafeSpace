@@ -1,0 +1,40 @@
+﻿add total bookings for today
+add remember me function for logging in
+view today's bookings
+view future bookings
+add different type of accounts e.g. admin and all staff
+add messaging capabilities for cross communication with employees
+add light & dark mode functions
+total employees that will be present in the building
+colour coding whether a room has been booked or not (bool)
+display name of room, total employees that will be in room and option of extension if required and available
+button for cancellation of room booking with confirmation
+safety checklist sent to each employee that will be in said room or messagebox that displays with the safety questions using radio buttons
+settings functionality (light and dark theme)
+azure based sql database connection (connectionstring)
+help button that provides a "tutorial" to how the room booking application works
+
+BACKUP:
+	create a local based database that is on a "central" computer
+	sends updated bookings spreadsheet in advance, uploaded to somewhere, replaces old existing one or creates a new one?
+
+Document
+
+	Why the project was chosen
+		what the advantages and disadvantages of it will be
+
+	Software
+		how the software became an idea
+		what tools were used
+		what language was used and why
+		different functions of the software
+		reason why software was created
+		how it can benefit the target audience of the software
+		gantt chart of progress showing functions, date added, time spent working on function
+		table describing each function with potential images
+		how it links with the database
+
+	Database creation
+		what tools were used
+		how it works
+		reason for it

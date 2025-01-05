@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RoomBookingModelStoreContainer" CdmEntityContainer="RoomBookingEntities">
+    <EntitySetMapping Name="loginINFOes">
+      <EntityTypeMapping TypeName="RoomBookingModel.loginINFO">
+        <MappingFragment StoreEntitySet="loginINFO">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bookingINFOes">
+      <EntityTypeMapping TypeName="RoomBookingModel.bookingINFO">
+        <MappingFragment StoreEntitySet="bookingINFO">
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="roomOptions" ColumnName="roomOptions" />
+          <ScalarProperty Name="totalMembers" ColumnName="totalMembers" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
